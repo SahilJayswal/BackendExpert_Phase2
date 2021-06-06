@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to FlyAway</title>
+<style>
+body{
+    background-image: url("images/airplane_index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: -8px;
+padding: 12px;
+background-color: black;
+opacity: 0.5;
+}
+.home{
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+.admin{
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+.header{
+padding: 80px 0 0 60px;
+}
+input[type=submit] {
+  background-color: #457b9d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+footer{
+    position: relative;
+    top: 270px;
+    color: black;
+    padding: 9px 25px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<nav>
+<a class="home" href="index.html">FlyAway</a>
+<a class="admin" href="Admin_Login.jsp">Admin Login</a>
+</nav>
+<div class="header">
+	<h1>Welcome to FlyAway</h1>
+	<h3>Book Flight at Best Price</h3><br>
+	<form action="Search_Page.jsp" method="post">
+		<input type="submit" value="Search Flight">
+	</form><br>
+	<form action="Admin_Login.jsp" method="post">
+		<input type="submit" value="Admin Login">
+	</form>
+</div>
+<footer>
+          <div class="center">
+              Copyright &copy; FlyAway developed by Sahil Jayswal. All rights reserved!
+          </div>
+      </footer>
+</body>
+</html>

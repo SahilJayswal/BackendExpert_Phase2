@@ -1,0 +1,15 @@
+127.0.0.1 - - [31/May/2021:14:00:28 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2021:14:00:29 +0530] "GET /HibernateConfig/index.html HTTP/1.1" 200 236
+0:0:0:0:0:0:0:1 - - [31/May/2021:14:00:30 +0530] "GET /HibernateConfig/init HTTP/1.1" 500 3302
+127.0.0.1 - - [31/May/2021:14:03:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2021:14:08:14 +0530] "GET /HibernateConfig/init HTTP/1.1" 200 76
+127.0.0.1 - - [31/May/2021:18:12:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:12:49 +0530] "GET /HibernateListMapping/index.html HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:12:51 +0530] "GET /HibernateListMapping/details HTTP/1.1" 500 3149
+127.0.0.1 - - [31/May/2021:18:14:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:14:26 +0530] "GET /HibernateListMapping/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:14:30 +0530] "GET /HibernateListMapping/details HTTP/1.1" 500 2343
+127.0.0.1 - - [31/May/2021:18:17:00 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:17:00 +0530] "GET /HibernateListMapping/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:17:04 +0530] "GET /HibernateListMapping/details HTTP/1.1" 500 2343
+0:0:0:0:0:0:0:1 - - [31/May/2021:18:18:00 +0530] "GET /HibernateListMapping/details HTTP/1.1" 500 1384

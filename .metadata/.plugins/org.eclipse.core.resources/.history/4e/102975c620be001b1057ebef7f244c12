@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Administrator Dashboard</title>
+<style>
+.navbar{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+a{
+font-size: 20px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+<div style="color:blue">
+<h2>Learner's Academy</h2>
+</div>
+<form action="Logout" method="get">
+<a href="Logout.jsp">Logout</a>
+</form>
+</nav>
+</body>
+</html>

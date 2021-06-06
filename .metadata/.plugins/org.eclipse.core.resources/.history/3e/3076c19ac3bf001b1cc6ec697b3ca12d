@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Flight Booking Registration</title>
+</head>
+<body>
+<nav>
+<a class="home" href="index.html">FlyAway</a>
+</nav>
+<h2 align="center">Admin Login</h2><br>
+<div class="container">
+  <form action="" method="post">
+
+    <label for="name">Passenger Name: </label><br>
+    <input type="text" id="name" name="name" placeholder="Enter Passenger Name" required>
+ 
+    
+    <br><label for="password">Password: </label><br>
+    <input type="password" id="password" name="password" placeholder="Password" required><br>
+  
+    
+    <input type="submit" value="Login">
+    
+</form>
+</div>
+
+<footer>
+<div class="center">
+Copyright &copy; FlyAway developed by Sahil Jayswal. All rights reserved!
+</div>
+</footer>
+</body>
+</html>

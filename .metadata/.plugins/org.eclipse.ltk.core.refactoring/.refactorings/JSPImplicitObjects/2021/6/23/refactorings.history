@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSPImplicitObjects/WebContent/handle-error.jsp&apos; to &apos;handler-error.jsp&apos;" description="Rename resource &apos;handle-error.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/handle-error.jsp" name="handler-error.jsp" stamp="1622540448420" updateReferences="true"/>
+</session>

@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Administrator Dashboard</title>
+<style>
+div{
+
+}
+nav{
+display: inline-block;
+}
+</style>
+</head>
+<body>
+<nav>
+<div>
+Learner's Academy
+</div>
+<form action="Logout" method="post">
+<button>Logout</button>
+</form>
+</nav>
+</body>
+</html>

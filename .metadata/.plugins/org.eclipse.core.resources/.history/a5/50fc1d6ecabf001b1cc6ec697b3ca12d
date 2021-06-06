@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page import="com.flyaway.Search" %>
+    <%@page import="com.flyaway.Booking" %>
+    
+    <%
+    Booking.name_on_card = request.getParameter("name_on_card");
+    Booking.card_details = request.getParameter("card_number");
+    %>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway Airline Ticket Booking Details</title>
+</head>
+<body>
+<div class="container">
+<h2 align="center">Thank You & Happy Journey</h2>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+package com.flyaway;
+
+public class Password {
+ 
+ public String Password(password) {
+	 this.password=password;
+ }
+
+ 
+}

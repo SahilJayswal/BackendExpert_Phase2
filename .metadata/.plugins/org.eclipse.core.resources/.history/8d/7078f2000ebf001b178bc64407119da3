@@ -1,0 +1,13 @@
+package com.flyaway;
+
+public class Password {
+ 
+ private String password = null;
+
+public String Password(String password) {
+	String password1 = password;
+	return password1;
+ }
+
+ 
+}

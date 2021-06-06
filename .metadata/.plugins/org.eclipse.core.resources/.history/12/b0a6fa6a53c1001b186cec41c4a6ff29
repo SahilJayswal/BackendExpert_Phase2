@@ -1,0 +1,12 @@
+package com.ecommerce;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+public class EProduct {
+@Entity
+@Table(Name="eproduct")
+public class Eproduct{
+	
+}
+}

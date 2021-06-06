@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Learners Academy</title>
+</head>
+<body>
+<div>
+<h2>Learners Academy</h2>
+<button align="left">Logout</button>
+</div>
+
+<div align="center">
+<h4>Online Management System</h4> 
+Username : <input type="text" name="username" id="username"><br><br>
+&nbsp;Password : <input type="password" name="password" id="password"><br><br>
+<button>Login</button>
+</div>
+</body>
+</html>

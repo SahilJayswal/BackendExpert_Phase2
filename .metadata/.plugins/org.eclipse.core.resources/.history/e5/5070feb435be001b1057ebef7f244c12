@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to FlyAway</title>
+<style>
+body{
+overflow-x: hidden;
+overflow-y: hidden;
+}
+nav{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: -8px;
+padding: 12px;
+background-color: yellow;
+}
+.home{
+font-size: 20px;
+text-decoration: none;
+color: black;
+}
+.admin{
+font-size: 20px;
+text-decoration: none;
+color: black;
+}
+button{
+font-size: 20px;
+color: black;
+background-color: blanchedalmond;
+}
+footer{
+    position: relative;
+    top: 387px;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<nav>
+<a class="home" href="index.html">FlyAway</a>
+<a class="admin" href="adminpage">Admin Login</a>
+</nav>
+<div>
+	<h1>Welcome to FlyAway</h1>
+	<h3>Book Flight at Best Price</h3>
+	<form action="Search_Page" method="post">
+		<button>Search Flight</button><br><br>
+	</form>
+	<form action="Admin_Page" method="post">
+		<button>Admin Login&nbsp;</button>
+	</form>
+</div>
+<footer>
+          <div class="center">
+              Copyright &copy; FlyAway developed by Sahil Jayswal. All rights reserved!
+          </div>
+      </footer>
+</body>
+</html>

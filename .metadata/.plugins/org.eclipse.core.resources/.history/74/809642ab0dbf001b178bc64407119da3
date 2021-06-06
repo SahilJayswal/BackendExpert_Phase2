@@ -1,0 +1,19 @@
+package com.flyaway;
+
+public class Password {
+ String pass = null;
+
+public String getPass() {
+	return this.pass;
+}
+
+public String setPass(String pass) {
+	return this.pass = pass;
+}
+
+@Override
+public String toString() {
+	return "Password [pass=" + pass + "]";
+}
+ 
+}

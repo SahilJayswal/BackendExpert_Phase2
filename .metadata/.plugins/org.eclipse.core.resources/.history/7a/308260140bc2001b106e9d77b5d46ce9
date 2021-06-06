@@ -1,0 +1,21 @@
+package com.ecommerce;
+
+import java.math.BigDecimal;
+import java.util.Date;
+import java.util.List;
+import java.util.Set;
+import java.util.Map;
+import java.util.Collection;
+
+
+public class EProduct {
+	private long ID;
+    private String name;
+    private BigDecimal price;
+    private Date dateAdded;
+    private List<Color> colors;
+    private Collection<ScreenSizes> screenSizes;
+    private Set<OS> os;
+    private Map finance;
+
+}

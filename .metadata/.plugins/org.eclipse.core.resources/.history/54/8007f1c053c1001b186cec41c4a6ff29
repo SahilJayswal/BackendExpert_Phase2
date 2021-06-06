@@ -1,0 +1,32 @@
+package com.ecommerce;
+
+import java.math.BigDecimal;
+import java.sql.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+public class EProduct {
+@Entity
+@Table(name="eproduct")
+public class Eproduct{
+	
+	@Id @GeneratedValue
+	@Column(name="ID")
+	private long ID;
+	
+	@Column(name="Name")
+	private String Name;
+	
+	@Column(name="price")
+	private BigDecimal price;
+	
+	@Column(name="date_added")
+	private Date date_added;
+	
+	
+}
+}

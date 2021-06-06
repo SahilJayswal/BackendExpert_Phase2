@@ -1,0 +1,18 @@
+package com.flyaway;
+
+public class Password {
+ 
+String pass;
+
+public String getPass() {
+	return this.pass;
+}
+
+public void setPass(String pass) {
+	this.pass = pass;
+}
+
+
+
+ 
+}

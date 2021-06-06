@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page errorPage="handler-error.jsp" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSP Implicit Objects</title>
+</head>
+<body>
+<%
+String reponseCheck = request.getParameter("office");
+if(reponseCheck!=null){
+	response.setStatus(response.SC_MOVED_TEMPORARILY);
+	response.setHeader("Location", "response-redirect.jsp?office= "+responseCheck);
+	
+}
+
+%>
+</body>
+</html>

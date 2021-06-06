@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@page import="com.flyaway.Search" %>
+    <%@page import="com.flyaway.Booking" %>
+    
+    <%
+    Booking.name_on_card = request.getParameter("name_on_card");
+    Booking.card_details = request.getParameter("card_number");
+    %>
+    
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FlyAway Airline Ticket Booking Details</title>
+</head>
+<body>
+<nav>
+		<a class="home" href="index.html">FlyAway</a>
+</nav>
+<div class="container">
+<h2 align="center">Thank You And Happy Journey</h2>
+<h3 align="center">Your Ticket Has Been Booked Successfully.</h3>
+<h3 align="center">Ticket Summary Is Given Below.</h3>
+
+<p><button onclick="window.print()" >Print Ticket</button></p>
+
+
+
+</div>
+<footer>
+		<div class="center">Copyright &copy; FlyAway developed by Sahil
+			Jayswal. All rights reserved!</div>
+</footer>
+</body>
+</html>

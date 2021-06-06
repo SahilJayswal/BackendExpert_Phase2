@@ -1,0 +1,19 @@
+package com.learner;
+
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class Set_Subject
+ */
+public class Set_Subject extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Set_Subject() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+}
